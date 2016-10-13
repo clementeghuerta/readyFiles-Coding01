@@ -1,0 +1,104 @@
+/*READ ME READ ME. Hey, guys. Use the top un-titled querie for mobile.
+
+ALSO, use the table media querie for anything larger than that. That will save a ton of time.
+Foundation will do the rest for what we need.
+*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+ul {
+	display: block;
+}
+
+a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: #000;
+	border: none;
+	list-style: none;
+}
+.title-bar {
+	position: relative;
+    top:25px;
+    z-index: 34;
+    background-color: #fff;
+    color: #000;
+    border-bottom: 10px solid #a2ac8c;
+}
+.menu-icon::after {
+	background: #000;
+  	box-shadow: 0 7px 0 #000, 0 14px 0 #000;
+
+}
+.section2 {
+	position: relative;
+	top: -0px;
+	margin: 20px 0 0 0;
+}
+.section3 {
+	position: relative;
+	top: 0px;
+	color: #fff;
+	background-color: #a2ac8c;
+}
+h1 {
+
+	font-size: 3.5em;
+	font-family: 'Kaushan Script', cursive;
+}
+.section4 {
+	position: relative;
+	top: 0px;
+	color: #fff;
+	background-color: #8d4e37;
+}
+h2 {
+	color: #fff;
+	font-size: 1.5em;
+	font-family: 'Kaushan Script', cursive;
+}
+
+ul, li {
+  		list-style-type: none;
+  		padding: 0px;
+  		margin: 0px;
+  		left: 0px;
+}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 640px) {
+		.container {
+			max-width: 1000px;
+			width: 100%;
+			margin: auto;
+		}
+		ul {
+			display: flex;
+
+		}
+		
+		 .top-bar {
+		    position: relative;
+		    background-color: #fff;
+		    border-bottom: 10px solid #a2ac8c;
+		    height: 100px;
+		}
+		.top-bar ul {
+			background-color: #fff;]
+			display: inline-block;
+		}
+		li {
+			padding: 0 20px;
+		}
+		body {
+		font-size: 16px;
+}
+}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+		
+	
+}
